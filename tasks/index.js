@@ -1,4 +1,4 @@
-var createWindowsInstaller = require('electron-winstaller').createWindowsInstaller;
+var createWindowsInstaller = require('custom-muon-winstaller').createWindowsInstaller;
 
 module.exports = function (grunt) {
   grunt.registerMultiTask('create-windows-installer', 'Create the Windows installer', function () {
