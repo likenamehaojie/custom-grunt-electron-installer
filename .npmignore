@@ -1,0 +1,6 @@
+spec
+*.coffee
+appveyor.yml
+.travis.yml
+.npmignore
+coffeelint.json
